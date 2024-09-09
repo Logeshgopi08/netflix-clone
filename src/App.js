@@ -1,10 +1,11 @@
 
 import './App.css';
+import Body from './components/Body';
 
 function App() {
   return (
-    <div className="text-3xl text-green-400">
-      Namaste Netflix Clone
+    <div className="my-app">
+      <Body/>
     </div>
   );
 }
